@@ -408,7 +408,6 @@ void bandSaveState() {
 
         sprintf(value,"%d",bands[b].alexTxAntenna);
         sprintf(name,"band.%d.alexTxAntenna",b);
-        sprintf(name,"band.%d.alexTxAntenna",b);
         setProperty(name,value);
 
         sprintf(value,"%d",bands[b].alexAttenuation);
