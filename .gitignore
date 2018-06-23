@@ -1,2 +1,6 @@
+# ignore the artefact
 linhpsdr
+#ignore the object code
 *.o
+# ignore the cppcheck rules
+std.cfg
